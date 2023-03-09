@@ -3,6 +3,7 @@ public class CaesarCipher {
         StringBuilder sb = new StringBuilder();
         for(char ch :s.toCharArray())
         {
+
             if(ch >='a' && ch<='z')
             {
                 int c = ch -'a';
