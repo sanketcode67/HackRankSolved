@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class DayOfTheProgrammer {
 
     public static String dayOfProgrammer(int year) {
@@ -18,6 +21,7 @@ public class DayOfTheProgrammer {
             return "13"+"."+"09"+"."+year;
         }
 
+
     }
     public static boolean isLeapYear(int year)
     {
@@ -29,4 +33,5 @@ public class DayOfTheProgrammer {
 
 
     }
+
 }
