@@ -10,6 +10,7 @@ public class DayOfTheProgrammer {
         if(year < 1918 && year%4==0 ||year > 1918 && isLeapYear(year))
         {
             isLeap = true;
+
         }
 
 
