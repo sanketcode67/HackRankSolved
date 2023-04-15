@@ -3,7 +3,7 @@ import java.util.*;
 public class PickingNumbers {
     public static int pickingNumbers(List<Integer> a) {
         Collections.sort(a);
-
+//        result array
         int[] res = new int[a.size()];
 
         int count=0;
